@@ -1,0 +1,14 @@
+{
+	"name": "app",
+	"version": "1.0.0",
+	"bin": "./bin/www",
+	"main": "./bin/www",
+	"pkg": {
+		"assets": ["views/**/*", "public/**/*"],
+		"scripts": "node_modules/**/*.js",
+		"outputPath": "build",
+		"targets": [
+			"x64"
+		]
+	}
+}
